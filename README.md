@@ -9,4 +9,14 @@ Basic RAG using LangChain + Ollama
 5. ollama list - To list all the models installed
 6. pip install langchain langchain-community chromadb ollama - To install required packages
 
+## Code
+1. Load a local file
+2. Create embeddings using Ollama
+3. Store and index the document in Chroma
+4. Connect the retriever and LLM in a RetrievalQA chain
+5. Ask questions to the document
+
+## Run & Debug
+1. python documentQA.py
+
 If any issue with above steps use chatgpt for help ;)
