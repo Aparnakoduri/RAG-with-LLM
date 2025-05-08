@@ -5,7 +5,7 @@ from langchain.chains import RetrievalQA
 from langchain.llms import Ollama
 
 # Load a local file
-loader = TextLoader("Pantri.txt", encoding="utf-8")
+loader = TextLoader("Pantri.md", encoding="utf-8")
 docs = loader.load()
 
 # Create embeddings with Ollama
